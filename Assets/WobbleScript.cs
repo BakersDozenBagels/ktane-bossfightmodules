@@ -38,7 +38,7 @@ public class WobbleScript : MonoBehaviour
 
         StartCoroutine(Move());
 
-        //GetComponent<KMSelectable>().OnInteract += () => { FlyAway(); return false; };
+        GetComponent<KMSelectable>().OnInteract += () => { FlyAway(); return false; };
     }
 
     private IEnumerator Move()

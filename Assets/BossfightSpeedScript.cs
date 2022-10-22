@@ -65,7 +65,8 @@ public class BossfightSpeedScript : MonoBehaviour {
         {
             pressed.AddInteractionPunch(0.25f);
             audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
-            //insert code here
+            
+
         }
     }
 
